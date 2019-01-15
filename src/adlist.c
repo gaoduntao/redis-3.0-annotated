@@ -26,6 +26,9 @@
  * CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
+ * https://xpenxpen.iteye.com/blog/2089131  is源码阅读笔记(2)——adlist
+ * https://redisbook.readthedocs.io/en/latest/internal-datastruct/adlist.html#id4  双端链表
+ * 
  */
 
 
