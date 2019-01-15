@@ -27,6 +27,12 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
+/**
+ * https://xpenxpen.iteye.com/blog/2088678 is源码阅读笔记(1)——sds
+ * https://blog.csdn.net/zhangboyj/article/details/6232168  c99之 柔性数组成员
+ * https://tonybai.com/2013/03/07/struct-hack-in-c/ 也谈C语言的Struct Hack
+ * 
+ */
 
 #ifndef __SDS_H
 #define __SDS_H
@@ -46,6 +52,8 @@ typedef char *sds;
 
 /*
  * 保存字符串对象的结构
+ *
+ * https://blog.csdn.net/peng314899581/article/details/76695161 struct中的数组和指针
  */
 struct sdshdr {
     

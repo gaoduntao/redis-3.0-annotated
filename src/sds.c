@@ -50,6 +50,9 @@
  *
  * 复杂度
  *  T = O(N)
+ *
+ * https://blog.csdn.net/peng314899581/article/details/76695161 struct中的数组和指针
+ * https://coolshell.cn/articles/11377.html C语言结构体里的成员数组和指针
  */
 /* Create a new sds string with the content specified by the 'init' pointer
  * and 'initlen'.

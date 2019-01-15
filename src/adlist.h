@@ -74,12 +74,15 @@ typedef struct list {
     listNode *tail;
 
     // 节点值复制函数
+    // (*dup) 代表一个函数指针, 前面的*代表返回值类型为指针(void *型)
     void *(*dup)(void *ptr);
 
     // 节点值释放函数
+    // (*free) 代表一个函数指针, 返回值为void
     void (*free)(void *ptr);
 
     // 节点值对比函数
+    // (*match) 代表一个函数指针, 返回值为int型
     int (*match)(void *ptr, void *key);
 
     // 链表所包含的节点数量
